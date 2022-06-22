@@ -1,0 +1,14 @@
+.datalist{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+.datalist>div{
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.datalist>div>div{
+    box-shadow: rgba(188, 113, 22, 0.35) 0px 5px 15px;
+
+}
